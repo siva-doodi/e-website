@@ -201,7 +201,7 @@ const Homepage = () => {
 
 
 
-      {/* <section className="bg-red-100 p-8 rounded-lg shadow-xl">
+      <section className="bg-red-100 p-8 rounded-lg shadow-xl">
         <h2 className="text-3xl font-semibold mb-4 text-center text-red-700">Flash Deals</h2>
         <p className="text-xl font-semibold text-red-700 text-center mb-6">
           Time Left: {Math.floor(countdown / 60)}:{countdown % 60}
@@ -221,7 +221,7 @@ const Homepage = () => {
             </div>
           ))}
         </div>
-      </section> */}
+      </section>
     </div>
   );
 };
